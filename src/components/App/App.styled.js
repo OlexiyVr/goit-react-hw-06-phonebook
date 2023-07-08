@@ -4,12 +4,13 @@ export const Container = styled.div`
   margin: 0 auto;
   margin-top: 30px;
   padding: 20px 20px;
-  width: 600px;
+  width: 650px;
   text-align: center;
   justify-content: center;
-  border-radius: 20px;
-  border: 3px solid #333340;
-  background: linear-gradient(62.93deg, #97ccf0 19.68%, #5218fa 89.55%);
+  border-radius: 15px;
+  border: 2px solid #FFD233;
+  background: rgb(46,0,255);
+  background: linear-gradient(180deg, rgba(46,0,255,0.7652310924369747) 0%, rgba(255,252,0,0.768032212885154) 100%);
 `;
 
 export const AppTitle = styled.h1`
@@ -24,7 +25,7 @@ export const ContactsTitle = styled.h2`
   padding-top: 30px;
   margin: 0 0 20px;
   color: #333340;
-  font-size: 24px;
+  font-size: 26px;
 `;
 
 export const FilterTitle = styled.p`
